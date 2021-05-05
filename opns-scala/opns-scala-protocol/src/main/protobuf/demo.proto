@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+//option java_multiple_files = true;
+option java_package = "org.b0102.opsn.protocol";
+//option java_outer_classname = "AddressBookProtos";
+
+
+message DtoContext {
+  string name = 1;
+  int32 age = 2;
+  int32 n = 3;
+}

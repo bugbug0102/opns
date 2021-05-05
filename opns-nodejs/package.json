@@ -1,0 +1,18 @@
+{
+  "name": "opns-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "pbjs ../opns-scala/opns-scala-protocol/src/main/protobuf/demo.proto --es5 demo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "pbjs": "0.0.14",
+    "protobuf.js": "^1.1.2",
+    "underscore": "^1.13.1"
+  }
+}
